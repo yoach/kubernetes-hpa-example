@@ -13,11 +13,11 @@ public class OrderController {
 
     @GetMapping
     public String order() {
-        try {
+      /*  try {
             Thread.sleep(5000);//sleep for 5 sec
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
+        }*/
         return "Greeting for your new tesla car , order number: " + UUID.randomUUID().toString();
     }
 }
